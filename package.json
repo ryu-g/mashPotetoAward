@@ -1,0 +1,28 @@
+{
+	"name": "mashPotetoAward",
+	"version": "1.0.0",
+	"description": "mpa special page",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "pingy dev",
+		"export": "pingy export"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ryu-g/mashPotetoAward.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ryu-g/mashPotetoAward/issues"
+	},
+	"homepage": "https://github.com/ryu-g/mashPotetoAward#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"pug": "",
+		"node-sass": "^4",
+		"@pingy/cli": "^0.12.1"
+	}
+}
