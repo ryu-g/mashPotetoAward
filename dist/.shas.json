@@ -18,17 +18,32 @@
     "inputSha": [
       {
         "file": "index.pug",
-        "sha": "9f7ff29f9c06915e1268cda1c20ae12956f6c7d3"
+        "sha": "4c5b990194507bfae78c90f8f133e9fcd28dcd2a"
       },
       {
         "file": "_head.pug",
         "sha": "567a16993ac316cea9df623ebfb8943b851766d9"
       }
     ],
-    "outputSha": "eda24f74c763f08cdaa5e3990cfcc635ccdf2a3c",
+    "outputSha": "410d543a057f78c43e18d5f7ad5c5b3381d51e48",
     "input": "index.pug",
     "output": [
       "index.html"
+    ]
+  },
+  {
+    "type": "node-sass@4.7.2::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.sass",
+        "sha": "50ac863f34c06685362990425ded81980f5cef9f"
+      }
+    ],
+    "outputSha": "ed2a0a938951d8e087f69351116fa630463a573a",
+    "input": "styles/main.sass",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
     ]
   },
   {
@@ -44,21 +59,6 @@
     "output": [
       "scripts/main.js.map",
       "scripts/main.js"
-    ]
-  },
-  {
-    "type": "node-sass@4.7.2::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/main.sass",
-        "sha": "29ab5536abf55f5e29bb332ec713444f2c928377"
-      }
-    ],
-    "outputSha": "46d2f04ce94ab25b334507cd4a1b944a39dbdb16",
-    "input": "styles/main.sass",
-    "output": [
-      "styles/main.css.map",
-      "styles/main.css"
     ]
   }
 ]
